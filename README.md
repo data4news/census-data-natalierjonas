@@ -2,9 +2,9 @@
 
 In this assignment you will do some exploratory data analysis using Census data. The goal is to come up with an observation or a question (not a story) by just exploring data. It doesn't have to be a story, or even a pitch. Just a well articulated question that makes you go "huh, what's up with that?".
 
-## Part 1: Study the code (with ChatGPT's help)
+## Part 1: Study the code (with AI's help)
 
-Study the code in `tidycensus-example.ipynb` and understand what it does. If you need to talk to ChatGPT as you study the code, please do so. Feel free to tinker with the code (modify the geography, change out the variables, etc). You'll be asked to submit your transcript with ChatGPT as you tried to understand the code and make changes.
+Study the code in `tidycensus-example.ipynb` and understand what it does. If you need to talk to an AI chatbot as you study the code, please do so. Feel free to tinker with the code (modify the geography, change out the variables, etc). You'll be asked to submit your transcript with an AI chatbot as you tried to understand the code and make changes.
 
 - What not to do in part 1: 🚫 Just run the code and move on to part 2
 - What to do in part 1: ✅ Read the code, try to understand it, talk to ChatGPT (or ask in slack) about what you don't understand
@@ -26,6 +26,6 @@ Your chart doesn't have to be a map. It can be histograms, dotplots, scatterplot
 Your submission will include:
 
 1. a link to your GitHub repo
-2. a link (or links) to your conversation with ChatGPT in part 2
-3. a google doc where you ask the "What's up with that" question (make sure to share it with Dhrumil and Shivangi). It can contain the chart alone if you have a good headline and subheadline or a few sentences in addition to the chart or charts to give it some context. 
+2. a link (or links) to your conversation with AI in part 2
+3. a google doc where you ask the "What's up with that" question (make sure to share it with Dhrumil). It can contain the chart alone if you have a good headline and subheadline or a few sentences in addition to the chart or charts to give it some context. 
 4. submit via courseworks
