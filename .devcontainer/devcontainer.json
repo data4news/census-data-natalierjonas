@@ -1,11 +1,8 @@
 {
 	"name": "ggplot-census",
-	"build": {
-		// Build from Dockerfile so all R/Python deps are pre-baked into the image.
-		// Enable Codespaces Prebuilds in repo Settings → Codespaces for instant startup.
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
+	// Pre-built image with R + Python deps baked in — no build step on Codespaces startup.
+	// To rebuild: docker build, push to dmil/r-and-python-test:latest, then reopen Codespace.
+	"image": "dmil/r-and-python-test:latest",
 	"customizations": {
 		"vscode": {
 			"extensions": [
