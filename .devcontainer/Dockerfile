@@ -16,6 +16,9 @@ RUN rm -f /etc/apt/sources.list.d/yarn.list && \
     libproj-dev \
     libgeos-dev \
     libudunits2-dev \
+    cmake \
+    libabsl-dev \
+    libssl-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install R packages — baked into the image so Codespaces loads instantly
