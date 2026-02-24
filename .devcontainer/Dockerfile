@@ -1,7 +1,9 @@
 FROM mcr.microsoft.com/devcontainers/python:1-3.11-bullseye
 
 # Install R and system libraries required by geospatial R packages (sf, tidycensus, tigris)
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# Remove stale Yarn apt repo from base image (expired GPG key blocks apt-get update)
+RUN rm -f /etc/apt/sources.list.d/yarn.list && \
+    apt-get update && apt-get install -y --no-install-recommends \
     r-base \
     r-base-dev \
     libharfbuzz-dev \
